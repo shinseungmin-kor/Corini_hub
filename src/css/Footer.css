@@ -1,0 +1,18 @@
+.footer {
+    position: absolute;
+    font-size: small;
+    margin-left: 20px;
+    text-align: left;
+    bottom:20px;  
+    border-top: solid 1px;
+}
+
+.footer h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
