@@ -10,6 +10,8 @@ import Book from './component/Book';
 import Mypage from './component/Mypage';
 import EmptyPage from './component/EmptyPage';
 import Footer from './component/Footer';
+import Header from './component/Header';
+import Login from './component/Login';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
     <>
       <BrowserRouter>
         <div className="App">
+          <Header />
+          <Login />
           <Nav />
           <Switch>
             <Route exact path="/">

@@ -1,10 +1,11 @@
 .navbar {
   display: flex;
+  
 }
 
-.navmenu h4 {
-   text-decoration-line: none;
-    padding: 10px;
-    margin: auto;
+.navmenu {
+  text-decoration-line: none;
+  margin: auto;
+  padding: 10px;
 }
 

@@ -6,17 +6,47 @@ function Nav() {
     return (
         <div className="navbar">
             <h4 className="navmenu">
-                <Link to="/">HOME</Link>
-                </h4>
+                <Link to="/" style={
+                    { textDecoration: 'none', color: 'black' }
+                }>
+                    HOME
+                    </Link>
+            </h4>
             <h4 className="navmenu">
-                <Link to="/">SiTE</Link>
-                </h4>
+                <Link to="/site" style={
+                    { textDecoration: 'none', color: 'black' }
+                }>
+                    SITE
+                    </Link>
+            </h4>
             <h4 className="navmenu">
-                BLOG
-                </h4>
-            <h4 className="navmenu">YOUTUBE</h4>
-            <h4 className="navmenu">BOOK</h4>
-            <h4 className="navmenu">MYPAGE</h4>
+                <Link to="/blog" style={
+                    { textDecoration: 'none', color: 'black' }
+                }>
+                    BLOG
+                    </Link>
+            </h4>
+            <h4 className="navmenu">
+                <Link to="/youtube" style={
+                    { textDecoration: 'none', color: 'black' }
+                }>
+                    YOUTUBE
+                    </Link>
+            </h4>
+            <h4 className="navmenu">
+                <Link to="/book" style={
+                    { textDecoration: 'none', color: 'black' }
+                }>
+                    BOOK
+                    </Link>
+            </h4>
+            <h4 className="navmenu">
+                <Link to="/mypage" style={
+                    { textDecoration: 'none', color: 'black' }
+                }>
+                    MYPAGE
+                    </Link>
+            </h4>
         </div>
     );
 }
