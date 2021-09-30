@@ -1,13 +1,11 @@
 import React from 'react';
 
-function Youtube() {
+function Modal() {
     return (
         <div>
-            <h1>Youtube</h1>
-
-
+            <h2>hello</h2>
         </div>
     );
 }
 
-export default Youtube;
+export default M

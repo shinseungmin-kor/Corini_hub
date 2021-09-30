@@ -1,4 +1,5 @@
 .header {
+    display: flex;
     font-size: 40px;
     padding: 15px;
     margin-top: 10px;

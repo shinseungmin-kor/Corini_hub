@@ -1,3 +1,13 @@
 .App {
   text-align: center;
 }
+
+.clear {
+  clear: both;
+}
+
+@media all and (max-width: 600px){
+  .App{
+    flex-direction: column;
+  }
+}
