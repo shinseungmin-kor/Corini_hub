@@ -16,7 +16,6 @@ function Header() {
         }
       };
 
-      
     return (
         <> 
         < header > 
